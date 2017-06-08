@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.developeinjava.android.ework.activities.WelcomeActivity"
+    tools:theme="@style/AppTheme2">
+
+    <TextView
+        android:id="@+id/welcome_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:elevation="8dp"
+        android:fontFamily="monospace"
+        android:padding="60dp"
+        android:text="@string/welcomeText"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grass"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signup_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/new_ic"
+            android:padding="10dp"
+            android:text="@string/signup_btn_label" />
+
+        <Button
+            android:id="@+id/signin_btn"
+            style="@style/ButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/login_ic"
+            android:padding="10dp"
+            android:text="@string/signin_btn_label" />
+
+    </LinearLayout>
+
+</LinearLayout>

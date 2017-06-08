@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E-WORK</string>
+    <string name="welcomeText">Welcome,\n\nProSol is a collaborative platform that enable IT enthusiasts to work on solving problems using their programming skills.
+        You are either a person who has a problem that needs to be solved based on your requirements including what programming language to be used.
+        Or you are looking for problems to solve and get your profile recognised when your "client" get satisfied with your solution.
+        If you are new user please sign up, or sign in if you already have an account with us.\n\nEnjoy your time with ProSol.</string>
+    <string name="signup_btn_label">&#160;&#160;sign up</string>
+    <string name="signin_btn_label">sign in&#160;&#160;</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="author_id_label">Author ID:</string>
+    <string name="signin_scr_ok_btn">ok</string>
+    <string name="signin_scr_back_btn">back</string>
+    <string name="signin_author_id_hint">Enter your 4-digit code</string>
+    <string name="author_id_dialog_invalid_id">Invalid ID</string>
+    <string name="author_id_dialog_no_input">No input provided</string>
+    <string name="author_id_dialog_title">Sign in</string>
+    <string name="title_activity_manage_solutions">ManageSolutionsActivity</string>
+
+</resources>

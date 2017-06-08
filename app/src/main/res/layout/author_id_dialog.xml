@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/author_id_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="@string/signin_author_id_hint"
+        android:inputType="number"
+        android:maxLength="4"
+        android:password="true"
+        android:phoneNumber="false"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+</LinearLayout>
